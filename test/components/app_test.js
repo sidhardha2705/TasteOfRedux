@@ -5,7 +5,7 @@ describe('App' , () => {
   let component;
 
   beforeEach(() => {
-    component = renderComponent(Something);
+    component = renderComponent(App);
   });
 
   it('renders something', () => {
